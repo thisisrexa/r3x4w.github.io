@@ -5,4 +5,4 @@ A few links to find me :)
 ## TODO
 - [x] Initial Release
 - [ ] Adding more links
-- [ ] Dark Mode (تا اون موقع عینک آفتابی بزن)
+- [ ] Dark Mode (تا اون موقع عینک آفتابی بزنید)
