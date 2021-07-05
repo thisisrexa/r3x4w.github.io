@@ -1,6 +1,37 @@
+@media only screen and (min-width: 425px) {
+  .card {
+    width: 18.75rem !important;
+  }
+  .main {
+    padding: 1rem 2rem !important;
+  }
+}
+
+@media only screen and (min-width: 500px) {
+  .intro,
+  .resume,
+  .tree-links {
+    width: 80% !important;
+  }
+  .main {
+    align-items: center !important;
+  }
+}
+
 @media only screen and (min-width: 768px) {
-  .ul {
-      width: 50% !important;
-    grid-template-columns: repeat(3, 1fr) !important;
+  .projects {
+    flex-flow: wrap row !important;
+    justify-content: center !important;
+  }
+  .card {
+    margin: 0 0.5rem 3rem !important;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .intro,
+  .resume,
+  .tree-links {
+    width: 50% !important;
   }
 }
