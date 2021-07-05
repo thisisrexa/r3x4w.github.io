@@ -1,31 +1,70 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fa" dir="rtl">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Rexa's Links Tree</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <meta
+      name="description"
+      content="MY NAME IS REXA & THIS IS A PERSONAL WEB PAGE"
+    />
+    <title>Rexa: Developer & Designer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;500;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Lalezar&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="assets/css/main.css" />
   </head>
   <body>
-    <header class="header">
-      <h1 class="heading">Rexa's Links Tree</h1>
-    </header>
+    <!-- Next versions -->
+    <!-- <header class="header">فثسف</header> -->
     <main class="main">
-      <div class="container">
-        <ul class="ul" id="links"></ul>
-      </div>
+      <section class="header-section" id="intro">
+        <h1 class="heading">
+          <a href="#intro" class="linked">سلام</a>
+        </h1>
+        <img
+          src="assets/media/wave.png"
+          class="emoji wave"
+          alt="wave hand emoji"
+        />
+      </section>
+      <section class="content-section intro">
+        <p class="paragraph">
+          من رکسا هستم (یجورایی لقب یا اسم دوم فرض کنید)،‌ من تقریبا ۱۷-۱۸ ساله
+          هستم و ایران / استان مرکزی زندگی می کنم. برنامه نویسی با پایتون رو از
+          ۱۲ سالگی شروع کردم ولی خب به عنوان اسکریپت نویسی و کارهای شخصی؛ فعلا
+          هم به عنوان توسعه دهنده فرانت-اند و طراح رابط کاربری فریلنسری کار می
+          کنم.
+        </p>
+      </section>
+      <section class="header-section" id="projects">
+        <h1 class="heading linked">
+          <a href="#projects" class="linked">پروژه ها</a>
+        </h1>
+      </section>
+      <section class="content-section custom">
+        <div class="projects"></div>
+      </section>
+      <section class="header-section" id="resume">
+        <h1 class="heading linked">
+          <a href="#resume" class="linked">رزومه</a>
+        </h1>
+      </section>
+      <section class="content-section resume"></section>
+      <section class="header-section" id="links">
+        <h1 class="heading linked">
+          <a href="#links" class="linked">لینک های مفید</a>
+        </h1>
+      </section>
+      <section class="content-section tree-links">
+        <ul class="links-container"></ul>
+      </section>
     </main>
     <footer class="footer">
-      <span
-        >Hosted by github.io — 
-        <a href="https://github.com/r3x4w" class="link">@r3x4w</a></span
-      >
+      <span class="information">an open-source project – @thisrexa</span>
     </footer>
     <script src="assets/js/main.js" defer></script>
   </body>
