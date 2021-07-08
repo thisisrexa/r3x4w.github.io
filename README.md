@@ -1,8 +1,7 @@
-# Rexa's Links Tree
-A few links to find me :)
-## Links
-* [Github](https://github.com/thisrexa)
+# Rexa's Github Pages
+About me, Projects, Resume, Tree links :3
 ## TODO
 - [x] Initial Release
-- [ ] Adding more links
-- [ ] Dark Mode (تا اون موقع عینک آفتابی بزنید)
+- [ ] Dark Mode
+- [ ] EN Lang
+- [ ] Supporting older browsers
