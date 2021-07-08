@@ -1,20 +1,12 @@
 @media only screen and (min-width: 425px) {
-  .card {
-    width: 18.75rem !important;
-  }
-  .main {
-    padding: 1rem 2rem !important;
+  .container {
+    padding: 1rem 4rem !important;
   }
 }
 
-@media only screen and (min-width: 500px) {
-  .intro,
-  .resume,
-  .tree-links {
-    width: 80% !important;
-  }
-  .main {
-    align-items: center !important;
+@media only screen and (min-width: 599px) {
+  .container {
+    margin: 0 3rem !important;
   }
 }
 
@@ -22,16 +14,37 @@
   .projects {
     flex-flow: wrap row !important;
     justify-content: center !important;
+    width: calc(600px + 3rem) !important;
   }
   .card {
     margin: 0 0.5rem 3rem !important;
   }
+  .container {
+    margin: 0 4rem !important;
+  }
+  .main {
+    align-items: center;
+  }
+  .custom {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+  .content-section {
+    width: 100%;
+  }
 }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 999px) {
   .intro,
   .resume,
   .tree-links {
-    width: 50% !important;
+    width: 60% !important;
+  }
+  .container {
+    margin: 0 3rem !important;
+  }
+  .projects {
+    width: calc(900px + 4rem) !important;
   }
 }

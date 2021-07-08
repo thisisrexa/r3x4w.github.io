@@ -21,7 +21,7 @@ function getProjects() {
       });
     }
   };
-  xhr.open("GET", "../../projects.json", true);
+  xhr.open("GET", "../../projects.json", true)
   xhr.send();
 }
 
@@ -35,7 +35,7 @@ function getLinks() {
         else des = "";
         links.innerHTML += `
           <li class='link-item'>
-            <a href='${links.href}' class='link'>${link.name}</a>
+            <a href='${link.href}' target='_blank' class='link'>${link.name}</a>
             <span class='description'>${link.description}</span>
           </li>
         `;
@@ -46,8 +46,5 @@ function getLinks() {
   xhr.send();
 }
 
-document.addEventListener("DOMContentLoaded", getProjects());
-document.addEventListener("DOMContentLoaded", getLinks());
-
-// Debug
-// console.log(projects)
+document.addEventListener("DOMContentLoaded", getProjects);
+document.addEventListener("DOMContentLoaded", getLinks);

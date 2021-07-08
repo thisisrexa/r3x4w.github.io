@@ -2,19 +2,31 @@
   {
     "name": "گیت هاب",
     "href": "https://github.com/thisrexa",
-    "description": "(تست)",
+    "description": "",
     "id": 1
   },
   {
     "name": "اینستاگرام",
-    "href": "https://github.com/thisrexa",
+    "href": "https://instagram.com/thisrexa",
     "description": "",
     "id": 2
   },
   {
     "name": "توییتر",
-    "href": "https://github.com/thisrexa",
+    "href": "https://twitter.com/thisrexa",
     "description": "",
     "id": 3
+  },
+  {
+    "name": "ویرگول",
+    "href": "https://virgool.io/@thisrexa",
+    "description": "",
+    "id": 4
+  },
+  {
+    "name": "دانلود فایل رزومه",
+    "href": "assets/media/cv.png",
+    "description": "(برای دانلود انگشت خود را روی تصویر نگه دارید یا کلیک راست کنید)",
+    "id": 5
   }
 ]
