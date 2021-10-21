@@ -73,6 +73,10 @@ body {
   text-decoration: none;
 }
 
+.particle-js {
+  height: 100vh;
+}
+
 @keyframes fadeInUp {
   from {
     opacity: 0;
