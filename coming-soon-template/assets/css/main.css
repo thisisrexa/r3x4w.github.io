@@ -74,7 +74,7 @@ body {
 }
 
 .particle-js {
-  height: 100vh;
+/*   height: 100vh; */
 }
 
 @keyframes fadeInUp {
