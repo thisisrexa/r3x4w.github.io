@@ -1,7 +1,5 @@
 # Rexa's Github Pages
-About me, Projects, Resume, Tree links :3
+Projects link
 ## TODO
 - [x] Initial Release
-- [ ] Dark Mode
-- [ ] EN Lang
-- [ ] Supporting older browsers
+- [ ] Hummm...
