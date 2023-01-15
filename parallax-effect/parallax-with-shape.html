@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Parallax With Shape</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+          Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+          sans-serif;
+      }
+
+      h1 {
+        text-align: center;
+      }
+
+      .container {
+        width: 1000px;
+        margin: 5rem auto;
+      }
+
+      .box {
+        height: 500px;
+        overflow: hidden;
+        position: relative;
+        background: #ccc;
+      }
+
+      .bg {
+        background: url(bg-1.jpg) center no-repeat;
+        width: 110%;
+        height: 110%;
+        background-size: cover;
+        position: absolute;
+        top: -5%;
+        left: -5%;
+        transition: transform 0.3s ease-out;
+      }
+
+      .shape {
+        background: url(shape-1.png) center no-repeat;
+        width: 50%;
+        height: 50%;
+        background-size: contain;
+        position: absolute;
+        top: 25%;
+        left: 25%;
+        transition: transform 0.3s ease-out;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Parallax With Shpae UwU</h1>
+      <div class="box">
+        <div class="bg"></div>
+        <div class="shape"></div>
+      </div>
+    </div>
+
+    <script>
+      let box = document.querySelector('.box');
+      let bg = document.querySelector('.bg');
+      let shape = document.querySelector('.shape');
+      let boxWidth = box.offsetWidth;
+      let boxHeight = box.offsetHeight;
+      let movementSpeed = 40;
+
+      function movement(e) {
+        let mouseX = Math.floor(
+          -(e.offsetX - boxWidth / 2) * (movementSpeed / boxWidth)
+        );
+        let mouseY = Math.floor(
+          -(e.offsetY - boxHeight / 2) * (movementSpeed / boxHeight)
+        );
+        bg.style.transform = `translate(${mouseX}px, ${mouseY}px)`;
+        shape.style.transform = `translate(${mouseX * 1.5}px, ${
+          mouseY * 1.5
+        }px)`;
+        //  console.log("x: ", mouseX, "y: ", mouseY);
+      }
+
+      box.addEventListener('mousemove', movement);
+    </script>
+  </body>
+</html>
